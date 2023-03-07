@@ -15,18 +15,12 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        
-        <Sidebar/>
+
+        <Sidebar />
 
         <main>
-          <Post
-            author="Arthur Carminatti"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, autem sit."
-          />
-          <Post
-            author="Vanusa Lima"
-            content="Lorem ipsum dolor sit amet com."
-          />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
