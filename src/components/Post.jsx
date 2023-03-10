@@ -2,7 +2,7 @@ import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css';
 
-export function Post() {
+export function Post(props) {
     return (
         <article className={styles.post}>
             <header>
@@ -18,14 +18,7 @@ export function Post() {
             </header>
 
             <div className={styles.content}>
-                <p>Hey guys 👋</p>
-                <p>This is my first ReactJS project 🚀</p>
-                <p>👉{' '}<a href="https://github.com/arthur-carminatti">https://github.com/arthur-carminatti </a></p>
-                <p>
-                    <a href="">#novoprojeto</a>{' '}
-                    <a href="">#reactjs</a>{' '}
-                    <a href="">#rocketseat</a>
-                </p>
+                
             </div>
 
             <form className={styles.commentForm}>
