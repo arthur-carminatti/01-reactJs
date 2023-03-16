@@ -9,7 +9,7 @@ import styles from './Post.module.css';
 
 export function Post({ author, publishedAt, content }) {
     const [comments, setComments] = useState([
-        'Post muito bacana, amei?!'
+        'Post muito bacana, hein?!'
     ])
 
     const [newCommentText, setNewCommentText] = useState('')
