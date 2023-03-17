@@ -85,6 +85,7 @@ export function Post({ author, publishedAt, content }) {
                     onInvalid={handleNewCommentInvalid}
                     required
                 />
+                //teste
 
                 <footer>
                     <button type='submit' disabled={isNewCommentEmpty}>
